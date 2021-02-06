@@ -2,7 +2,14 @@
 
 ## Setup
 
-1. Install `python`, `flask`, `pip`
-2. Set the `FLASK_APP` environment variable to the absolute path of the file app.py 
-3. Activate the virtual env by running `./env/Scripts/activate`
-4. Run `python -m flask run` 
+Install `python`
+
+Set up a virtual environment using Python called env 
+
+Set the `FLASK_APP` environment variable to the absolute path of the file app.py 
+
+Activate the virtual env by running `./env/Scripts/activate`
+
+Run `pip install flask`
+
+Run `python -m flask run` 
