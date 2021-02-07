@@ -2,6 +2,5 @@ examples
 .vscode
 __pycache__/
 env/
-html/
 css/
 js/
