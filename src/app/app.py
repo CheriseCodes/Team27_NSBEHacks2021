@@ -41,6 +41,12 @@ def setname():
     return redirect('/expenses')
     return expenses()
 
+@app.route("/setname", methods=["POST"])
+def setname():
+    global username
+    username = request.form["username"]
+    return redirect('/expenses')
+    return expenses()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
